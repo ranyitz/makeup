@@ -131,7 +131,7 @@ brew install exa
 alias ls="exa"
 ```
 
-### JavaScript
+### Node
 
 ```sh
 # fnm - https://github.com/Schniz/fnm
