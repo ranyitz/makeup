@@ -129,6 +129,10 @@ brew install fx
 # exa - https://the.exa.website/
 brew install exa
 alias ls="exa"
+
+# fd - https://github.com/sharkdp/fd
+brew install fd
+
 ```
 
 ### Node
