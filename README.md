@@ -133,6 +133,9 @@ alias ls="exa"
 # fd - https://github.com/sharkdp/fd
 brew install fd
 
+# tre - https://github.com/dduan/tre
+brew install tre-command
+
 ```
 
 ### Node
