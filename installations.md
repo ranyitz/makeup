@@ -34,8 +34,9 @@ brew install watchman
 brew install git
 
 # git configuration
-git config --global user.name "Ran Yitzhaki"
-git config --global user.email "ranyitz@gmail.com"
+git config --global user.name "<Your Name>"
+git config --global user.email "<yourname@gmail.com>"
+git config --global --add --bool push.autoSetupRemote true
 
 # rectangle
 brew install --cask rectangle
