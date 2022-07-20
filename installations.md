@@ -37,6 +37,8 @@ brew install git
 git config --global user.name "<Your Name>"
 git config --global user.email "<yourname@gmail.com>"
 git config --global --add --bool push.autoSetupRemote true
+git config --global --add alias.b "\!git for-each-ref --color=always --sort=-committerdate refs/heads/ --format='%(color:green)%(committerdate:relative)%(color:reset)%09%(HEAD) %(color:yellow)%(refname:short)%(color:reset) %(color:magenta)%(authorname)%(color:reset) • %(contents:subject)'"
+git config --global --add alias.bi "\!git b | fzf --ansi --header='checkout branch <choose branch>' --reverse | awk '{print \$4}' | xargs git checkout"
 
 # rectangle
 brew install --cask rectangle
