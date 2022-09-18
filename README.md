@@ -30,6 +30,9 @@ xcode-select --install
 # iterm2 - https://iterm2.com/
 brew install iterm2 --cask
 
+# warp - https://www.warp.dev/
+brew install --cask warp
+
 # zsh - https://www.zsh.org/
 brew install zsh
 
@@ -95,6 +98,9 @@ brew install --cask kap
 
 # vlc - https://www.videolan.org/
 brew install --cask vlc
+
+# shottr - screenshot tool https://shottr.cc/
+brew install --cask shottr
 ```
 
 ### CLI Tools
