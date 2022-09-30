@@ -101,6 +101,9 @@ brew install --cask vlc
 
 # shottr - screenshot tool https://shottr.cc/
 brew install --cask shottr
+
+# maccy - clipboard manager https://maccy.app/
+brew install --cask maccy
 ```
 
 ### CLI Tools
