@@ -104,6 +104,10 @@ brew install --cask shottr
 
 # maccy - clipboard manager https://maccy.app/
 brew install --cask maccy
+
+# raycast - https://raycast.com/
+brew install --cask raycast
+
 ```
 
 ### CLI Tools
